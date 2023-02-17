@@ -1,0 +1,17 @@
+Content/BlockGame
+Content/Hour_of_Code
+Content/SCK_Casual01
+Content/LearningKit_Games
+Content/LearningKit_Robots
+DerivedDataCache
+Intermediate
+Saved
+Binaries
+SCK_Casual01.png
+Link to Source Assets.txt
+*.bin
+*.pdb
+*.umap
+*.log
+*.pch
+.vs
