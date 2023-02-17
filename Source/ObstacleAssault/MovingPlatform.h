@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "MovingPlatform.generated.h"
 
+
 UCLASS()
 class OBSTACLEASSAULT_API AMovingPlatform : public AActor
 {
@@ -22,5 +23,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere)
+	FVector MyVector = FVector(4, 3, 2);
 
 };

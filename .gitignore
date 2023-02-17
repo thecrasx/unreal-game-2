@@ -6,6 +6,7 @@ Content/LearningKit_Robots
 DerivedDataCache
 Intermediate
 Saved
+Plugins
 Binaries
 SCK_Casual01.png
 Link to Source Assets.txt
@@ -15,3 +16,4 @@ Link to Source Assets.txt
 *.log
 *.pch
 .vs
+.vscode

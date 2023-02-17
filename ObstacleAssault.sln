@@ -29,10 +29,6 @@ Global
 		Shipping|IOS = Shipping|IOS
 		Shipping|Win64 = Shipping|Win64
 	EndGlobalSection
-	# UnrealVS Section
-	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
-		AvailablePlatforms=Win64;IOS
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{434416AA-4D79-399D-9F78-A22A6123760D}.DebugGame Editor|IOS.ActiveCfg = BuiltWithUnrealBuildTool|Win64
 		{434416AA-4D79-399D-9F78-A22A6123760D}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
@@ -69,5 +65,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{434416AA-4D79-399D-9F78-A22A6123760D} = {233774A8-CC9D-3FA9-86D1-90573E92B704}
 		{DEAB7153-F16F-3CE6-9EA6-73AEB99E0EC9} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8A20C0A-E23D-4D66-B037-82B8D7377FA9}
+	EndGlobalSection
+	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
+		AvailablePlatforms = Win64;IOS
 	EndGlobalSection
 EndGlobal
